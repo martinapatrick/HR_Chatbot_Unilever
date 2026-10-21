@@ -4,3 +4,5 @@ venv/
 __pycache__/
 *.pyc
 /Unilever_HR_Policy_Handbook_Draft_20_Pages.pdf
+/Downloads/
+screenshot*.png
