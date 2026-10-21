@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Unilever HR Portal</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <img src="assets/unilever-logo.svg" alt="Unilever" class="logo">
+    <nav><a href="#">Careers</a><a href="#">Policies</a><a href="#">Benefits</a></nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Unilever HR Portal</h1>
+      <p>Find answers about leave, benefits and company policies. Ask our HR assistant anytime.</p>
+    </section>
+  </main>
+
+  <button id="chat-toggle" aria-label="Open HR chat">💬</button>
+
+  <section id="chat-panel" hidden>
+    <div class="chat-header">
+      <span>HR Assistant</span>
+      <button id="chat-close" aria-label="Close chat">×</button>
+    </div>
+    <div id="chat-messages"></div>
+    <form id="chat-form">
+      <input id="chat-input" type="text" maxlength="500" placeholder="Ask about HR policy..." autocomplete="off" required>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <script src="app.js"></script>
+</body>
+</html>
