@@ -16,7 +16,7 @@ frontend/  index.html, styles.css, app.js, assets/unilever-logo.svg
 ```
 python -m venv venv
 venv\Scripts\activate
-pip install -r backend\requirements.txt
+pip install -r requirements.txt
 cd backend
 uvicorn main:app --reload
 ```
